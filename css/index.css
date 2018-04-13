@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+
+li {
+	list-style: none;
+}
+
+.gameTopBg {
+	float: left;
+	width:100%;
+	height: 8.5rem;
+	background: url(../img/bgtop.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.clound {
+	float: left;
+	width: 4.87rem;
+	height: 0.49rem;
+	background: url(../img/clound.png) no-repeat center;
+	background-size: cover;
+	margin-left: 1.40rem;
+	margin-top: 0.82rem;
+}
+.aplay {
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../img/aplay.png) no-repeat center;
+	background-size: cover;
+	margin-right: 0.24rem;
+	margin-top: 0.32rem;
+}
+.showBar {
+	width: 1.24rem;
+	height: 4.24rem;
+	position: absolute;
+	right: 0.24rem;
+	bottom: 1.42rem;
+}
+.showBar div {
+	width: 1.24rem;
+	height: 1.24rem;
+}
+.showBar div:nth-child(1) {
+	background: url(../img/health.png) no-repeat center;
+	background-size: cover;
+}
+.showBar div:nth-child(2) {
+	background: url(../img/point.png) no-repeat center;
+	background-size: cover;
+	margin-top: 0.13rem;
+}
+.showBar div:nth-child(3) {
+	margin-top: 0.38rem;
+	background: url(../img/pause.png) no-repeat center;
+	background-size: cover;
+}
+.key {
+	float: left;
+	width: 100%;
+	height: 4.45rem;
+	background: url(../img/key.png) no-repeat center;
+	background-size: cover;
+}
+.keyContent {
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.25rem;
+	width: 7.02rem;
+	height: 4rem;
+	border-radius: 0.07rem;
+	background: #1e65d3;
+}
+.keyContent ul li {
+	margin-top: 0.49rem;
+	line-height: 0.8rem;
+	text-align: center;
+	float: left;
+	width: 0.32rem;
+	height: 0.62rem;
+	background: red;
+	margin-left: 0.19rem;
+	font-size: 0.32rem;
+	background: #d2f6fe;
+	border: 0.09rem solid #48c9ff;
+	border-radius: 0.02rem;
+	box-shadow: 3px 3px 1px 1px #73683d;
+}
+.keyContent ul li:nth-child(10)~li {
+	margin-top: 0.28rem;
+}
+.keyContent ul li:nth-child(11) {
+	margin-left: 0.5rem;
+}
+.keyContent ul li:nth-child(20) {
+	margin-left: 1.19rem;
+}
